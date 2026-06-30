@@ -1027,10 +1027,6 @@
 		)
 		(instances
 			(project "Zicote"
-				(path "/6b0fc6cc-2a24-4473-b451-05b55e127697"
-					(reference "U1")
-					(unit 1)
-				)
 				(path "/6b0fc6cc-2a24-4473-b451-05b55e127697/fad689dd-4fa6-4985-905f-0b15ef4f9b39"
 					(reference "U1")
 					(unit 1)
@@ -1085,7 +1081,83 @@
 		)
 	)
 	(sheet
-		(at 36.83 26.67)
+		(at 26.67 27.94)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4da8d243-51e5-4f95-82db-05b1c1096f7b")
+		(property "Sheetname" "Proteccion"
+			(at 26.67 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Proteccion.kicad_sch"
+			(at 26.67 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT+" bidirectional
+			(at 44.45 31.75 0)
+			(uuid "7cfa8859-ea5e-4e1d-832b-d6b54197aec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT-" bidirectional
+			(at 44.45 35.56 0)
+			(uuid "136b5d3d-66e1-45c2-91df-ee33e7bca7e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 26.67 31.75 180)
+			(uuid "79f79538-abc6-4ebc-b0e4-53d0f46c9774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Zicote"
+				(path "/6b0fc6cc-2a24-4473-b451-05b55e127697/fad689dd-4fa6-4985-905f-0b15ef4f9b39"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 26.67)
 		(size 35.56 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1101,7 +1173,7 @@
 		)
 		(uuid "682a0831-ede2-49dd-8c07-6d7bad06c151")
 		(property "Sheetname" "Boost_Buck_Converter"
-			(at 36.83 25.9584 0)
+			(at 68.58 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1112,7 +1184,7 @@
 			)
 		)
 		(property "Sheetfile" "Boost_Buck_Converter.kicad_sch"
-			(at 36.83 42.4946 0)
+			(at 68.58 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

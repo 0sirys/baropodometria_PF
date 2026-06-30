@@ -416,7 +416,7 @@
         "uuid": "6b0fc6cc-2a24-4473-b451-05b55e127697"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U4-5,#PWR9-20,R2-8,C5-7,LED1-2,Q1",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "682a0831-ede2-49dd-8c07-6d7bad06c151",
       "Boost_Buck_Converter"
+    ],
+    [
+      "4da8d243-51e5-4f95-82db-05b1c1096f7b",
+      "Proteccion"
     ]
   ],
   "text_variables": {},
